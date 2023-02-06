@@ -14,6 +14,9 @@ This project represents a cutting-edge solution to help individuals with physica
 * 'Wheelchair.py': connects to the CortexAPI to get real-time brain signals and detects the desired command. This information is then sent to the Arduino via serial communication. 
 * 'SenderArduino.ino':  Receives the data from python script,  and sends it to the receiver Arduino that is connected to the wheelchair.
 * 'RecieverArduino.ino': Recieves the command and controls wheelchair movement
+* 'coco.names' : Class names file
+* 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt' : Computer vision model configuration file
+* 'frozen_inference_graph.pb' : model weights
 
 ## Safety Measures:
 For user safety, the wheelchair is equipped with an ultrasound sensor and computer vision technology to detect obstacles in its path.
